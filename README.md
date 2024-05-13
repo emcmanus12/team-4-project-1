@@ -11,22 +11,47 @@ Fed Rate Impact Predictor is a Python application designed to analyze the impact
 2. [Usage](#usage)
 3. [Analysis](#analysis)
 4. [Contributers](#contributers)
+5. [Conculusion](#conclusion)
 
 ## Installation
 
 Provide instructions on how to install your Python application. Include any dependencies that need to be installed and how to install them (e.g., using pip).
 
 ```bash
-pip install -r requirements.txt
+!pip install plotly-express
 ```
 
 ## Usage
 
-Explain how to use your Python application. Provide examples of how to run the application and any command-line arguments or options that can be used.
+To use this application, follow these steps:
 
-```bash
-python main.py --input_data data.csv
-```
+1. **Clone the Repository**
+    - Navigate to the "Code" drop-down menu on the repository page.
+    - Copy the SSH URL.
+
+2. **Set Up Your Project Directory**
+    - Open your terminal.
+    - Create a new directory for the project:
+      ```bash
+      mkdir fedrateimpactpredictor
+      ```
+    - Change to the new directory:
+      ```bash
+      cd fedrateimpactpredictor
+      ```
+
+3. **Clone the Repository**
+    - Clone the repository using the copied SSH URL:
+      ```bash
+      git clone <git@github.com:emcmanus12/team-4-project-1.git>
+      ```
+
+4. **Run the Jupyter Notebook**
+    - Launch Jupyter Notebook:
+      ```bash
+      jupyter notebook
+      ```
+    - Open the relevant notebook file and run through the cells to get your outputs.
 
 ## Analysis
 
@@ -40,11 +65,20 @@ The Federal Reserve is poised to decrease interest rates, as inflation continues
 - **Correlation between Unemployment & Interest Rates**: Examine the correlation between unemployment and interest rates.
 - **Forecasting Unemployment with Prophet**: Use Prophet to forecast unemployment based on assumptions of lower interest rates and inflation.
 
+# Conclusion 
+
+All three analysis indicate a drop in unemployment, if the Federal reserve were to cut the Fed Funds rate based on inflation moving towards its target range.
+1. Unemployment and PCE Inflation rate have a low-moderate correlation depending on the state. There is a stronger correlation between lagged (24 months) unemployment and PCE inflation. This implies unemployment will fall if PCE inflation rate continues to drop.
+2. Unemployment and Fed funds rate have a low-moderate correlation depending on the state. There is a stronger correlation between the lagged unemployment and Fed Funds rate. This would imply unemployment will continue to fall if the Fed starts to reduce the Fed Funds rate.
+3. The Prophet forecast model shows a downward trend in unemployment rates for all states.
+Additional analysis were carried out after reviewing the results of the three analysis, as there were two anomalies (CA and NV) in the results. The anomalies showed unemployment had no correlation with PCE inflation rate or Feds Funds rate.
+4. Pandemic Analysis - This showed that NV was the worst affected state and had still not recovered completely from the pandemic.
+
 ## Contributers
 
-Ian Cody 
-Jaidev Kler
-Ethan McManus
-Kyle Prudente
-Grigoriy Isayev
-Emmanuel Charles
+Ian Cody,
+Jaidev Kler,
+Ethan McManus,
+Kyle Prudente,
+Grigoriy Isayev,
+Emmanuel Charles.
