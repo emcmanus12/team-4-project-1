@@ -1,9 +1,9 @@
-# Fed Rate Impact Predictor
+# Unemployment Rate Predictor
 
 
 ## Overview
 
-Fed Rate Impact Predictor is a Python application designed to analyze the impact of Federal Reserve interest rate changes on unemployment rates. The project aims to answer the question: "What would a decrease in interest rates, coupled with inflation nearing its target range, mean for unemployment?"
+Unemployment Rate Predictor is a Python application designed to analyze the impact of various data vs unemployment rates. The project aims to answer the question: "How do interest rates, the Federal Funds Rate, and the effects of the pandemic compare to unemployment rates, and will unemployment decrease or rise when considered alongside inflation?"
 
 ## Table of Contents
 
@@ -57,7 +57,7 @@ To use this application, follow these steps:
 
 ### Question
 
-The Federal Reserve is poised to decrease interest rates, as inflation continues to get closer to its target range. What would this mean for unemployment?
+"How do interest rates, the Federal Funds Rate, and the effects of the pandemic compare to unemployment rates, and will unemployment decrease or rise when considered alongside inflation?"
 
 ### Approach
 
