@@ -15,11 +15,20 @@ Unemployment Rate Predictor is a Python application designed to analyze the impa
 
 ## Installation
 
-Provide instructions on how to install your Python application. Include any dependencies that need to be installed and how to install them (e.g., using pip).
+## Installation
+
+To install the necessary dependencies for this project, use the following commands:
 
 ```bash
-!pip install plotly-express
+pip install pystan
 ```
+```bash
+pip install prophet
+```
+```bash
+pip install plotly-express
+```
+
 
 ## Usage
 
