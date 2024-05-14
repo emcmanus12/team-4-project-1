@@ -68,16 +68,16 @@ The Federal Reserve is poised to decrease interest rates, as inflation continues
 # Conclusion 
 
 1. **Unemployment and Inflation**: There's a connection between unemployment and inflation rates. When inflation drops, unemployment tends to decrease as well, especially when looking at data from two years ago.
-![Inflation](./images/inflation.png)
+![Inflation](images/inflation.png)
 
 2. **Unemployment and Fed Funds Rate**: Similarly, when the Federal Reserve lowers interest rates (Fed Funds Rate), unemployment often decreases. This trend is particularly noticeable when considering past unemployment rates.
-![Fed Funds Rate](./images/fed_funds_rate.png)
+![Fed Funds Rate](images/fed_funds_rate.png)
 
 3. **Prophet Forecast Model**: Using a forecasting model called Prophet, we can predict that unemployment rates will likely decrease in the future for all states.
-![forecast](./images/forecast_CA.png)
+![forecast](images/forecast_CA.png)
 
 4. **Pandemic Analysis**: Nevada (NV) was hit hardest by the pandemic and is still struggling to fully recover. This is reflected in the state's high unemployment rates.
-![Pandemic](./images/pandemic.png)
+![Pandemic](images/pandemic.png)
 
 ## Contributers
 
