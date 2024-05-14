@@ -67,22 +67,23 @@ The Federal Reserve is poised to decrease interest rates, as inflation continues
 
 # Conclusion 
 
-1. **Unemployment and Inflation**: There's a connection between unemployment and inflation rates. When inflation drops, unemployment tends to decrease as well, especially when looking at data from two years ago.
+1. **Unemployment and Inflation**: Examining the relationship between unemployment and inflation rates reveals an intriguing connection. Historically, when inflation rates experience a decline, there's often a corresponding decrease in unemployment levels. This correlation becomes even more pronounced when analyzing data from the past two years, suggesting a nuanced interplay between economic factors.
 
 ![Inflation](Images/inflation.png)
 
-2. **Unemployment and Fed Funds Rate**: Similarly, when the Federal Reserve lowers interest rates (Fed Funds Rate), unemployment often decreases. This trend is particularly noticeable when considering past unemployment rates.
+3. **Unemployment and Fed Funds Rate**: Exploring the dynamics between unemployment and the Federal Reserve's interest rate, known as the Fed Funds Rate, uncovers intriguing insights. Notably, when the Federal Reserve opts to lower interest rates, there tends to be a subsequent decrease in unemployment rates. This pattern becomes particularly evident when considering historical unemployment trends and their correlation with past adjustments to the Fed Funds Rate.
 
 ![Fed Funds Rate](Images/fed_funds_rate.png)
 
-3. **Prophet Forecast Model**: Using a forecasting model called Prophet, we can predict that unemployment rates will likely decrease in the future for all states.
-   
+3. **Prophet Forecast Model**: Leveraging advanced forecasting techniques such as the Prophet model offers valuable insights into future unemployment trends. By employing sophisticated algorithms, the Prophet model predicts a forthcoming decline in unemployment rates across all states. This forward-looking analysis provides valuable foresight into potential economic shifts and informs strategic decision-making processes.
+
 ![forecast](Images/forecast_CA.png)
 
-4. **Pandemic Analysis**: Nevada (NV) was hit hardest by the pandemic and is still struggling to fully recover. This is reflected in the state's high unemployment rates.
+4. **Pandemic Analysis**: Conducting a thorough analysis of the pandemic's impact on unemployment rates reveals noteworthy findings, particularly in states heavily affected by the crisis. For instance, Nevada (NV) emerged as one of the states hardest hit by the pandemic, grappling with persistently high unemployment rates. Despite efforts to mitigate the economic fallout, Nevada continues to face significant challenges on its path to recovery, underscoring the enduring repercussions of the pandemic on local economies.
 
 ![Pandemic](Images/pandemic.png)
 
+   
 ## Contributers
 
 Ian Cody,
