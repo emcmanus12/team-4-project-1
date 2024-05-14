@@ -67,12 +67,17 @@ The Federal Reserve is poised to decrease interest rates, as inflation continues
 
 # Conclusion 
 
-All three analysis indicate a drop in unemployment, if the Federal reserve were to cut the Fed Funds rate based on inflation moving towards its target range.
-1. Unemployment and PCE Inflation rate have a low-moderate correlation depending on the state. There is a stronger correlation between lagged (24 months) unemployment and PCE inflation. This implies unemployment will fall if PCE inflation rate continues to drop.
-2. Unemployment and Fed funds rate have a low-moderate correlation depending on the state. There is a stronger correlation between the lagged unemployment and Fed Funds rate. This would imply unemployment will continue to fall if the Fed starts to reduce the Fed Funds rate.
-3. The Prophet forecast model shows a downward trend in unemployment rates for all states.
-Additional analysis were carried out after reviewing the results of the three analysis, as there were two anomalies (CA and NV) in the results. The anomalies showed unemployment had no correlation with PCE inflation rate or Feds Funds rate.
-4. Pandemic Analysis - This showed that NV was the worst affected state and had still not recovered completely from the pandemic.
+1. **Unemployment and Inflation**: There's a connection between unemployment and inflation rates. When inflation drops, unemployment tends to decrease as well, especially when looking at data from two years ago.
+![Inflation](./images/inflation.png)
+
+2. **Unemployment and Fed Funds Rate**: Similarly, when the Federal Reserve lowers interest rates (Fed Funds Rate), unemployment often decreases. This trend is particularly noticeable when considering past unemployment rates.
+![Fed Funds Rate](./images/fed_funds_rate.png)
+
+3. **Prophet Forecast Model**: Using a forecasting model called Prophet, we can predict that unemployment rates will likely decrease in the future for all states.
+![forecast](./images/forecast_CA.png)
+
+4. **Pandemic Analysis**: Nevada (NV) was hit hardest by the pandemic and is still struggling to fully recover. This is reflected in the state's high unemployment rates.
+![Pandemic](./images/pandemic.png)
 
 ## Contributers
 
