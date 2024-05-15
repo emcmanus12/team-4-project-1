@@ -50,7 +50,6 @@ pip install plotly-express
 pip install kaleido
 ```
 
-
 ## Usage
 
 To use this application, follow these steps:
@@ -80,16 +79,12 @@ To use this application, follow these steps:
     - Create an API key to access the FRED database, as this will be required to download the dataset being used for the analysis. The instructions can found on: [FRED](https://fred.stlouisfed.org/docs/api/fred/)
     - Create a .env file and save the API key under FRED_API_KEY
 
-
 5. **Run the Jupyter Notebook**
     - Launch Jupyter Notebook:
       ```bash
       jupyter notebook
       ```
     - Open the relevant notebook file and run through the cells to get your outputs.
-
-
-
 
 ## Analysis
 
@@ -112,7 +107,7 @@ To use this application, follow these steps:
 
 ![Inflation](Images/inflation.png)
 
-3. **Unemployment and Fed Funds Rate**: Exploring the dynamics between unemployment and the Federal Reserve's interest rate, known as the Fed Funds Rate, uncovers intriguing insights. Notably, when the Federal Reserve opts to lower interest rates, there tends to be a subsequent decrease in unemployment rates. This pattern becomes particularly evident when considering historical unemployment trends and their correlation with past adjustments to the Fed Funds Rate.
+2. **Unemployment and Fed Funds Rate**: Exploring the dynamics between unemployment and the Federal Reserve's interest rate, known as the Fed Funds Rate, uncovers intriguing insights. Notably, when the Federal Reserve opts to lower interest rates, there tends to be a subsequent decrease in unemployment rates. This pattern becomes particularly evident when considering historical unemployment trends and their correlation with past adjustments to the Fed Funds Rate.
 
 ![Fed Funds Rate](Images/fed_funds_rate.png)
 
@@ -127,6 +122,8 @@ To use this application, follow these steps:
 ## Recommendations
 - There are a lot of factors that affect unemployment. Our analysis is the first step towards exploring the unemployment trend. A more in-depth analysis will be able to uncover anamolies like California. 
 - Outlier period like the pandemic could be omitted from the calculations to provide a better forecast for the future.
+
+![Outliers](Images/outliers.png)
 
 ## References
 - **St. Louis Federal Reserve (FRED)**: All the datasets used in the analysis
