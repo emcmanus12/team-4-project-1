@@ -1,5 +1,8 @@
 # Unemployment Rate Predictor
 
+<center>
+  <img src="Images/termination.jpg" alt="Example Image" width="800">
+<center>
 
 ## Overview
 
