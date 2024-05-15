@@ -125,13 +125,13 @@ To use this application, follow these steps:
 ![Pandemic](Images/pandemic.png)
 
 ## Recommendations
-- #TODO (something on the lines: The analysis is a good first step to evaluating the unemployment trend, but there are other factors that can affect unemploymnet which need to be investigated to understand anomolies like California)
+- There are a lot of factors that affect unemployment. Our analysis is the first step towards exploring the unemployment trend. A more in-depth analysis will be able to uncover anamolies like California. 
+- Outlier period like the pandemic could be omitted from the calculations to provide a better forecast for the future.
 
 ## References
-
 - **St. Louis Federal Reserve (FRED)**: All the datasets used in the analysis
-- #TODO for videos
-   
+- **Yahoo News, ABCNL, CNBC, CBS News, FOX News, FirstPost America, Reuters, and CSPAN**: Video sources
+
 ## Contributers
 
 Ian Cody,
